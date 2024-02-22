@@ -1,0 +1,210 @@
+body {
+    background-color: #7caf9f;
+}
+
+main {
+    max-width: 45rem;
+    margin: 1rem auto;
+    padding: 1em;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* // <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 400 to 700
+
+.kode-mono-<uniquifier> {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 100 to 800
+
+.sora-<uniquifier> {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+button#topbutton {
+    position: fixed;
+    bottom: 1rem;
+    right: 8vw;
+    background-color: #95c8b9;
+    border: 1px solid white;
+    border-radius: 1rem;
+}
+
+button#topbutton::after{
+    content: '\2191';
+    padding-left: 0.4em;
+    color: white;
+}
+
+button#topbutton a {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+    color: #ff533e;
+}
+
+h1, h2, h3 {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1 {
+    font-size: 3em;
+    color: #0f533e;
+    /* text-transform: uppercase; */
+    margin-bottom: 0.1em;
+}
+
+h2 {
+    display: inline-block; 
+    text-transform: capitalize;
+    font-size: 1.6em;
+    margin: 0.5rem 0;
+    background: linear-gradient(180deg,rgba(83,96,110,0) 50%, #ff533e 50%);
+    background-repeat: no-repeat;
+    background-position: left 0 bottom .4rem;
+    margin-block-end: 0.5rem;
+
+    /* background: transparent;
+    border-radius: 10px;
+    height: 10px;
+    width: 255px;
+    box-shadow: 0 55px 0 0 #000; */
+
+}
+
+
+h3 {
+    display: inline;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 1.5em;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+}
+
+p {
+    color: black;
+}
+
+a {
+    color: #0f533e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: white;
+    margin-top: 2rem;
+}
+
+img {
+    display: block;
+    width: 90%;
+    margin: 1rem auto 2rem auto;
+}
+
+span#names {
+    display: inline-block;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+span.socials {
+    display: inline-block;
+    width: fit-content;
+    margin-bottom: 0.5rem;
+    padding: 0.1em 0.4em;
+    background-color: #95c8b9;
+    border-radius: 0.8rem;
+}
+
+/* span.socials a {
+    color: #0f533e;
+}
+
+span.socials a:hover {
+    color: white;
+} */
+
+div.video {
+    margin: 1rem auto;
+}
+
+ul li {
+    color: #0f533e;
+    font-weight: 400;
+    text-transform: uppercase;
+    list-style: none;
+    margin-bottom: 0.5em;
+}
+
+ul li a:hover {
+    color: white;
+}
+
+blockquote {
+    background-color: #95c8b9;
+    width: 75%;
+    margin: 2rem auto;
+    padding: 3em 3em 4em 3em;
+    border-radius: 1em;
+}
+
+h3.link a::after{
+    content: '\2794';
+    padding-left: 0.2em;
+    color: white;
+}
+
+span.caption {
+    display: block;
+    width: fit-content;
+    margin: -1rem auto 2rem auto;
+    text-align: center;
+    color: white;
+    padding: 0.1em 0.4em;
+    background-color: #95c8b9;
+    border-radius: 0.8rem;
+    font-size: .8em;
+}
+
+span.whitetxt {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+        margin-top: 0;
+    }
+    h1 {
+        margin-top: 0;
+    }
+}
+/* colour saver
+apple green #79d13d
+fuscha lost?
+hot orange #ff533e 
+unknown/orange? rgb(255, 133, 58)*/
