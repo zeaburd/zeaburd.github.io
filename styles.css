@@ -39,21 +39,19 @@ button#topbutton {
     background-color: #95c8b9;
     border: 1px solid white;
     border-radius: 1rem;
-}
-
-button#topbutton::after{
-    content: '\2191';
-    padding-left: 0.4em;
-    color: white;
-}
-
-button#topbutton a {
     font-family: "Kode Mono", monospace;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
     font-size: 1rem;
     color: #ff533e;
+    cursor: pointer;
+}
+
+button#topbutton::after{
+    content: '\2191';
+    padding-left: 0.4em;
+    color: white;
 }
 
 h1, h2, h3 {
@@ -182,11 +180,14 @@ span.whitetxt {
     color: white;
 }
 
-/* SE sizes? */
-@media only screen and (max-width: 400px) {
-   
-    h1 {
-        font-size: 2.8em;
+@media only screen and (max-width: 800px) { 
+    
+    h2 {
+        font-size: 2em;
+    }
+
+    blockquote h3 {
+        font-size: 2em;
     }
 }
 
@@ -201,7 +202,7 @@ span.whitetxt {
     }
 
     h2 {
-        font-size: 1.7em;
+        font-size: 1.6em;
     }
 
     blockquote {
@@ -209,18 +210,20 @@ span.whitetxt {
         padding: 2em 1.5em 3em 1.5em;
         font-size: 0.65em
     }
-}
 
-@media only screen and (max-width: 800px) { 
-    
-    h2 {
-        font-size: 2em;
-    }
-
-    blockquote h4 {
+    blockquote h3 {
         font-size: 2em;
     }
 }
+
+/* SE sizes? */
+@media only screen and (max-width: 400px) {
+   
+    h1 {
+        font-size: 2.8em;
+    }
+}
+
 
 /* colour saver
 apple green #79d13d
