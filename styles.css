@@ -158,6 +158,14 @@ blockquote {
     border-radius: 1em;
 }
 
+blockquote h3 {
+    font-size: 2em;
+}
+
+blockquote p {
+    font-size: 0.95em;  
+}
+
 h4.link a::after{
     content: '\2794';
     padding-left: 0.2em;
@@ -186,8 +194,8 @@ span.whitetxt {
         font-size: 2em;
     }
 
-    blockquote h3 {
-        font-size: 2em;
+    blockquote p {
+        font-size: 0.6em;
     }
 }
 
@@ -208,11 +216,10 @@ span.whitetxt {
     blockquote {
         max-width: 100%;
         padding: 2em 1.5em 3em 1.5em;
-        font-size: 0.65em
     }
 
-    blockquote h3 {
-        font-size: 2em;
+    blockquote p {
+        font-size: 0.65em       
     }
 }
 
