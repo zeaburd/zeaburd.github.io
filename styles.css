@@ -80,13 +80,12 @@ h2 {
     margin-block-end: 0.5rem;
 }
 
-
-h3 {
+h3, h4 {
     display: inline;
     font-family: "Sora", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 700;
     font-size: 1.5em;
+    font-weight: 700;
     font-style: normal;
     color: white;
     text-transform: uppercase;
@@ -99,6 +98,7 @@ p {
 p.firstline {
     margin-top: 2em;
 }
+
 a {
     color: #0f533e;
     text-decoration: none;
@@ -160,7 +160,7 @@ blockquote {
     border-radius: 1em;
 }
 
-h3.link a::after{
+h4.link a::after{
     content: '\2794';
     padding-left: 0.2em;
     color: white;
@@ -203,7 +203,7 @@ span.whitetxt {
     h2 {
         font-size: 1.7em;
     }
-    
+
     blockquote {
         max-width: 100%;
         padding: 2em 1.5em 3em 1.5em;
@@ -217,8 +217,8 @@ span.whitetxt {
         font-size: 2em;
     }
 
-    blockquote h3 {
-        font-size: 2.5em;
+    blockquote h4 {
+        font-size: 2em;
     }
 }
 
