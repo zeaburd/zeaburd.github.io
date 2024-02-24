@@ -215,7 +215,11 @@ span.whitetxt {
 
     blockquote {
         max-width: 100%;
-        padding: 2em 1.5em 3em 1.5em;
+        padding: 2em 1em 3em 1.5em;
+    }
+
+    blockquote h3 {
+        font-size: 1.5em;
     }
 
     blockquote p {
